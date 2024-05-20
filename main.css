@@ -671,9 +671,18 @@ blockquote span{
     .header{
         padding-bottom: 30px;
     }
-    .social-icons{
-        display: none;
-    }
+    .social-icons {
+    text-align: center; /* Untuk memastikan ikon sosial media berada di tengah */
+}
+
+.social-icons ul {
+    padding: 0;
+}
+
+.social-icons ul li {
+    display: inline-block; /* Agar ikon sosial media ditampilkan dalam satu baris */
+    margin-right: 10px; /* Spasi antara setiap ikon */
+}
     .about-content h3{
         width: 100%;
     }
